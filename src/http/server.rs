@@ -14,7 +14,7 @@ use alloc::string::String;
 use alloc::sync::Arc;
 use alloc::vec::Vec;
 
-use log::{info, warn};
+use ::log::{info, warn};
 
 use embedded_svc::errors::Errors;
 use embedded_svc::http::server::{
